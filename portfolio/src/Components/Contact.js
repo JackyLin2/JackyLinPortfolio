@@ -1,10 +1,19 @@
 import React from 'react'
+import ContactMe from './ContactMe'
+
 
 class Contact extends React.Component{
+    
+    handleClick = () => {
+        console.log("hello")
+    }
+
     render(){
+
         return(
-            <div className="Form">
-                Contact me: 
+            <div className="Form" >
+                <ContactMe/>
+                {/* Contact me: 
                 <form>
                     <label>
                         Name: 
@@ -30,9 +39,10 @@ class Contact extends React.Component{
                     </label>
                 </form>
                <input 
+               onClick = {this.handleClick}
                 type='submit'
                 value='Submit'
-               />
+               /> */}
 
               
             </div>
