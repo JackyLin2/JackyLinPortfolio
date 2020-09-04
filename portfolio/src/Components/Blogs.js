@@ -4,7 +4,7 @@ class Blog extends React.Component{
     render(){
         return(
             <div>
-                <p>Blogs: </p>
+                <h1>Blogs: </h1>
             </div>
         )
     }
