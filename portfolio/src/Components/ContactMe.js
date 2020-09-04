@@ -28,16 +28,18 @@ import emailjs from 'emailjs-com';
     render(){
             console.log(this.state.email)
     return (
-    
+        <div>
+        <h1>Contact Me:</h1>
       <form className="contact-form" onSubmit={this.sendEmail}>
         <label>Name</label>
-        <input type="text" name="name" placeholder="Your Name"/>
+        <input type="text" name="name" placeholder="Your Name"/><br/>
         <label>Email</label>
-        <input type="email" name= "email"  placeholder="Your Email"/>
+        <input type="email" name= "email"  placeholder="Your Email"/><br/>
         <label>Message</label>
-        <textarea name="message" />
+        <textarea name="message" placeholder="Your Message Here"/>
         <input type="submit" value="Send" />
       </form>
+      </div>
     );
   }
 }
