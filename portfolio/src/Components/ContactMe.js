@@ -31,11 +31,11 @@ import emailjs from 'emailjs-com';
         <div>
         <h1>Contact Me:</h1>
       <form className="contact-form" onSubmit={this.sendEmail}>
-        <label>Name</label>
+        <label>Name: </label>
         <input type="text" name="name" placeholder="Your Name"/><br/>
-        <label>Email</label>
+        <label>Email: </label>
         <input type="email" name= "email"  placeholder="Your Email"/><br/>
-        <label>Message</label>
+        <label>Message: </label>
         <textarea name="message" placeholder="Your Message Here"/>
         <input type="submit" value="Send" />
       </form>
