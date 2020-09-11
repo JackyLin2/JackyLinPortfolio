@@ -5,7 +5,7 @@ class Blog extends React.Component{
         return(
             <div>
                 <h1>Blogs: </h1>
-                
+                <a  href="https://medium.com/@jacky.jia.lin"> My Blog Site </a> 
             </div>
         )
     }
