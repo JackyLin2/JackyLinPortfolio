@@ -5,7 +5,7 @@ class Project extends React.Component{
         return(
             <div>
                 <h1>Projects: </h1>
-                
+                <a  href="https://github.com/JackyLin2"> GitHub </a> 
             </div>
         )
     }
