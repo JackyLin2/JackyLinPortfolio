@@ -5,9 +5,12 @@ class About extends React.Component{
         return(
             <div>
                 <h1> About Me: </h1>
-                <p> My name is Jacky Lin and I recently graduated from Flatiron Bootcamp to become a Full Stack Web Developer. At Flatiron I was able to create projects using 
-                    various languages, frameworks and libraries such as Ruby, Ruby on Rails, Javascript and React. My road to becoming a full stack developer has only begun, I am 
-                    excited to create more projects and apply what I know to the real world </p>
+                <p> Hi! My name is Jacky Lin and I am a software engineer based in New York, NY.  </p>
+                 <p>   
+                    I graduated from Flatiron Bootcamp in June of 2020. Through my time at Flatiron I was able to learn Ruby, Ruby on Rails, Javascript and React.
+                    I enjoy creating websites and application and my goal is to always be better than who I was yesterday. During my free time I enjoy playing basketball, hiking,
+                    and working out. Please reach out to me if you would like to work together on a project!  
+                </p>
             </div>
         )
     }
