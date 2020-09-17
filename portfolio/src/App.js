@@ -5,6 +5,7 @@ import About from './Components/About'
 import Blogs from './Components/Blogs'
 import Contact from './Components/Contact'
 import Projects from './Components/Projects'
+import Profile from './images/Profile.jpeg'
 
 
 
@@ -13,6 +14,7 @@ function App() {
     <div >
       <NavBar/>
          <h1>Jacky Lin</h1> 
+         <img  className='Profile' src={Profile} alt={"Me"}/>
         <About/>
         <Projects/>
         <Blogs/>
