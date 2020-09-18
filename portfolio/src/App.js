@@ -6,6 +6,7 @@ import Blogs from './Components/Blogs'
 import Contact from './Components/Contact'
 import Projects from './Components/Projects'
 import Profile from './images/Profile.jpeg'
+import { IconName } from "react-icons/ai";
 
 
 
