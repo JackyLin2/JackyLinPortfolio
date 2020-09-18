@@ -7,6 +7,7 @@ import Contact from './Components/Contact'
 import Projects from './Components/Projects'
 import Profile from './images/Profile.jpeg'
 import { AiFillGithub } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Blogs/>
         <Contact/>
         <a href="https://github.com/JackyLin2 "></a> <AiFillGithub /> 
+        <a href="https://www.linkedin.com/in/jacky-lin-b6b0b5170/ "></a> <AiFillLinkedin /> 
     </div>
   );
 }
