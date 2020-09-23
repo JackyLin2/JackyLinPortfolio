@@ -8,6 +8,7 @@ import Projects from './Components/Projects'
 import Profile from './images/Profile.jpeg'
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
+import { AiFillMediumSquare} from "react-icons/ai"
 
 
 
@@ -21,8 +22,10 @@ function App() {
         <Projects/>
         <Blogs/>
         <Contact/>
-        <a href= "https://github.com/JackyLin2" > <AiFillGithub className='links' /> </a> 
-        <a href="https://www.linkedin.com/in/jacky-lin-b6b0b5170/"><AiFillLinkedin  className='links'/> </a> 
+        <a href= "https://github.com/JackyLin2" > <AiFillGithub className='links' /> </a> |
+        <a href="https://www.linkedin.com/in/jacky-lin-b6b0b5170/"><AiFillLinkedin  className='links'/> </a> |
+        <a href="https://medium.com/@jacky.jia.lin"><AiFillMediumSquare  className='links'/> </a>
+        
     </div>
   );
 }
