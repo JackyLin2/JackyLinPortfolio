@@ -22,9 +22,13 @@ function App() {
         <Projects/>
         <Blogs/>
         <Contact/>
-        <a href= "https://github.com/JackyLin2" > <AiFillGithub className='links' /> </a> |
-        <a href="https://www.linkedin.com/in/jacky-lin-b6b0b5170/"><AiFillLinkedin  className='links'/> </a> |
-        <a href="https://medium.com/@jacky.jia.lin"><AiFillMediumSquare  className='links'/> </a>
+        <br/>
+        <a href= "https://github.com/JackyLin2" > <AiFillGithub style={{
+        position: 'absolute', left: '50%', top: '123%'}}/> </a> 
+        <a href="https://www.linkedin.com/in/jacky-lin-b6b0b5170/"><AiFillLinkedin style={{
+        position: 'absolute', left: '55%', top: '123%'}}  /> </a> 
+        <a href="https://medium.com/@jacky.jia.lin"><AiFillMediumSquare  style={{
+        position: 'absolute', left: '52.5%', top: '123%'}}/> </a>
         
     </div>
   );
