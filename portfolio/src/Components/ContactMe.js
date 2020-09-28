@@ -39,7 +39,7 @@ import emailjs from 'emailjs-com';
         <input type="text" name="subject" placeholder="Subject"/><br/>
         <label>Message: </label>
         <textarea name="message" placeholder="Your Message Here"/><br/>
-        <input type="submit" value="Send" />
+        <input type="submit" value="Send"   className='Btn'/>
       </form>
       </div>
     );
