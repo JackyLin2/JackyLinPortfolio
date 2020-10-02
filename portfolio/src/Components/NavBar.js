@@ -5,13 +5,13 @@ class Navbar extends React.Component{
     render() {
         return (
             <div>
-              <ul id="nav">
+              {/* <ul id="nav">
                 <li>Home</li>
                 <li>About</li>
                 <li>Projects</li>
                 <li>Blogs</li>
                 <li>Contact</li>
-              </ul>
+              </ul> */}
             </div>
         );
     }
