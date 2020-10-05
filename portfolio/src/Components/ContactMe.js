@@ -28,7 +28,7 @@ import emailjs from 'emailjs-com';
     render(){
             console.log(this.state.email)
     return (
-        <div>
+        <div className="input">
         <h1>Contact Me:</h1>
       <form className="contact-form" onSubmit={this.sendEmail}>
         <label>Name: </label>
