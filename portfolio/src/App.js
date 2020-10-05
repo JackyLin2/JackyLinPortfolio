@@ -24,11 +24,11 @@ function App() {
         <Contact/>
         <br/>
         <a href= "https://github.com/JackyLin2" > <AiFillGithub style={{
-        position: 'absolute', left: '47%', top: '123%'}}/> </a> 
+        position: 'absolute', left: '47%', top: '300%'}}/> </a> 
         <a href="https://www.linkedin.com/in/jacky-lin-b6b0b5170/"><AiFillLinkedin style={{
-        position: 'absolute', left: '50%', top: '123%'}}  /> </a> 
+        position: 'absolute', left: '50%', top: '300%'}}  /> </a> 
         <a href="https://medium.com/@jacky.jia.lin"><AiFillMediumSquare  style={{
-        position: 'absolute', left: '52.5%', top: '123%'}}/> </a>
+        position: 'absolute', left: '52.5%', top: '300%'}}/> </a>
         
     </div>
   );
