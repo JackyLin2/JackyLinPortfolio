@@ -3,7 +3,7 @@ import React from 'react'
 class About extends React.Component{
     render(){
         return(
-            <div>
+            <div className="me">
                 <h1> About Me: </h1>
                 <p> Hi! My name is Jacky Lin and I am a software engineer based in New York, NY.  </p>
                  <p>   

@@ -87,3 +87,8 @@ input[type=submit] {
   background-color: #f222;
   padding: 20px;
 }
+
+.me{
+  text-align: center;
+  font-family: Times New Roman, 30px
+}
