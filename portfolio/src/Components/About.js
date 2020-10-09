@@ -3,7 +3,8 @@ import React from 'react'
 class About extends React.Component{
     render(){
         return(
-            <div className="me">
+            <div className="picture">
+                <div className="me">
                 <h1> About Me: </h1>
                 <p> Hi! My name is Jacky Lin and I am a software engineer based in New York, NY.  </p>
                  <p>   
@@ -12,6 +13,7 @@ class About extends React.Component{
                     and working out. 
                 </p>
                 <p>Please reach out to me if you would like to work together on a project!   </p>
+                </div>
             </div>
         )
     }

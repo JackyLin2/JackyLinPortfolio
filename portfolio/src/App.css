@@ -86,9 +86,15 @@ input[type=submit] {
   border-radius: 5px;
   background-color: #f222;
   padding: 20px;
+  
 }
 
 .me{
   text-align: center;
-  font-family: Times New Roman, 30px
+  font-family: Times New Roman, 30px;
+  background-color: 'rgba(0, 0, 0, 0.5)',
+}
+.picture{
+  background-image: url("https://imgc.artprintimages.com/img/print/new-york-city-skyline-at-night_u-l-f5co1g0.jpg?h=550&p=0&w=550");
+  
 }
