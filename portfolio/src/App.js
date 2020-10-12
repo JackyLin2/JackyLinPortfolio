@@ -16,7 +16,7 @@ function App() {
   return (
     <div >
       <NavBar/>
-         <h1>Jacky Lin</h1> 
+         <h1 className='Profile'> Jacky Lin</h1> 
          <img  className='Profile' src={Profile} alt={"Me"}/>
         <About/>
         <Projects/>
