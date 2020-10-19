@@ -16,7 +16,7 @@ class Blog extends React.Component{
               <a href="https://medium.com/@jacky.jia.lin/fizz-buzz-interview-question-6e42e18569ab">  <img src="https://miro.medium.com/max/514/1*UzQ0y9oWOZccYgwosk5ALA.png" class="bpicture"  height="300" width="300"/> </a>
               <br/>
               <strong>FizzBuzz Interview Question</strong>
-              
+              <br/>
             </div>
         )
     }
