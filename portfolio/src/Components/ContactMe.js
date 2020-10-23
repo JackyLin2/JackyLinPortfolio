@@ -31,13 +31,13 @@ import emailjs from 'emailjs-com';
         <div className="input">
         <h1>Contact Me:</h1>
       <form className="contact-form" onSubmit={this.sendEmail}>
-        <label>Name: </label>
+        <label>Your Name: </label>
         <input type="text" name="name" placeholder="Your Name"/><br/>
-        <label>Email: </label>
+        <label>Your Email: </label>
         <input type="text" name= "email"  placeholder="Your Email"/><br/>
-        <label>Subject: </label>
+        <label>Your Subject: </label>
         <input type="text" name="subject" placeholder="Subject" /><br/>
-        <label>Message: </label>
+        <label>Your Message: </label>
         <textarea name="message" placeholder="Your Message Here"/><br/>
         <input type="submit" value="Send"   className='Btn'/>
       </form>
