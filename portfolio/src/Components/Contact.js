@@ -12,6 +12,7 @@ class Contact extends React.Component{
 
         return(
             <div className="Form" >
+                <br/>
                 <ContactMe/>
               
             </div>
