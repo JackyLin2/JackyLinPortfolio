@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Open Sans';
 }
 
 #nav {
@@ -95,8 +96,6 @@ input[type=submit] {
   text-align: center;
   font-family: 'Open Sans';
   font-size: 30px;
-  
-  
 }
 /* .picture{
   background-image: url("https://imgc.artprintimages.com/img/print/new-york-city-skyline-at-night_u-l-f5co1g0.jpg?h=550&p=0&w=550");
