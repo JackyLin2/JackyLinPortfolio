@@ -113,7 +113,7 @@ input[type=submit] {
 
 } */
 
-/* .Profile{
-  float: left;
-  text-align: left;
-} */
+.Profile{
+  font-family: 'Open Sans';
+  text-align: center;
+}
