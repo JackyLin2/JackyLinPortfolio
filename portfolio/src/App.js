@@ -17,7 +17,8 @@ function App() {
     <div >
       <NavBar/>
          <h1 className='Profile'> Jacky Lin</h1> 
-         <img  className='Profile' src={Profile} alt={"Me"}/>
+         <img  className='Profile' src={Profile} alt={"Me"} style={{ position: "absolute" }}/>
+         <br/>
         <About/>
         <Projects/>
         <Blogs/>
