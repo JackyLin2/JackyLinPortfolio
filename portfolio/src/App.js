@@ -24,6 +24,7 @@ function App() {
         <Blogs/>
         <Contact/>
         <br/>
+        <br/>
         <a href= "https://github.com/JackyLin2" > <AiFillGithub style={{
         position: 'absolute', left: '47%', top: '350%', fontSize: '30px'}}/> </a> 
         <a href="https://www.linkedin.com/in/jacky-lin-b6b0b5170/"><AiFillLinkedin style={{
