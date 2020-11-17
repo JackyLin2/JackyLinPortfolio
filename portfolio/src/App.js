@@ -16,12 +16,8 @@ function App() {
   return (
     <div >
       <NavBar/>
-         <h1 className='Profile' style={{ fontSize: '300px' }}> Jacky Lin</h1> 
-         <h1 className='Profile' style={{ fontSize: '100px' }}> View my Work</h1> 
+         <h1 className='Profile' style={{ fontSize: '250px' }}> Jacky Lin</h1> 
          <img  className='Profile' src={Profile} alt={"Me"} style={{ position: "absolute" }}/>
-         <br/>
-         <br/>
-         <br/> 
          <br/>
         <About/>
         <Projects/>
