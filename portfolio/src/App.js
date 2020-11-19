@@ -22,6 +22,11 @@ function App() {
         <About/>
         <Projects/>
         <Blogs/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         <Contact/>
         <br/>
         <br/>

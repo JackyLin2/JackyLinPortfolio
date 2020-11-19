@@ -110,6 +110,13 @@ input[type=submit] {
   padding: 20px;
 }
 
+.floating-3{
+
+  width: 50%;
+  float: right;
+  padding: 20px;
+}
+
 
 .project{
   font-family: 'Open Sans';
