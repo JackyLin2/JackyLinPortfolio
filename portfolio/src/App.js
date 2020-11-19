@@ -15,8 +15,8 @@ import { AiFillMediumSquare} from "react-icons/ai"
 function App() {
   return (
     <div >
-      <NavBar/>
-         <h1 className='Profile' style={{ fontSize: '250px' }}> Jacky Lin</h1> 
+      {/* <NavBar/> */}
+         <h1 className='Profile' style={{ fontSize: '200px' }}> Jacky Lin</h1> 
          <img  className='Profile' src={Profile} alt={"Me"} style={{ position: "absolute" }}/>
          <br/>
         <About/>
