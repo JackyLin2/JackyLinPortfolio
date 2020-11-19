@@ -23,6 +23,8 @@ class Blog extends React.Component{
               <a href="https://medium.com/@jacky.jia.lin/what-is-imposter-syndrome-76e7bb694a8b">  <img src="https://miro.medium.com/max/725/0*VGIjaCRbI53mGhxf.jpg" class="bpicture"  height="300" width="300"/> </a>
               <br/>
               <strong>What Is Imposter Syndrome?</strong>
+              <br/>
+             
               </div>
 
 
