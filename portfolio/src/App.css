@@ -102,6 +102,15 @@ input[type=submit] {
   font-family: 'Open Sans';
   font-size: 25px;
 }
+
+.floating-2{
+
+  width: 50%;
+  float: right;
+  padding: 20px;
+}
+
+
 .project{
   font-family: 'Open Sans';
   font-size: 25px;
