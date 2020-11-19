@@ -101,6 +101,11 @@ input[type=submit] {
 .blogs{
   font-family: 'Open Sans';
   font-size: 25px;
+  
+}
+
+.centerBlog{
+  text-align: center;
 }
 
 .floating-2{
@@ -136,5 +141,13 @@ input[type=submit] {
 }
 
 .icon{
-  
+  position: 'absolute';
+  left: '47%';
+  top: '325%';
+  font-size: '30px';
 }
+
+.projectCenter{
+  text-align: center;
+}
+

@@ -7,19 +7,14 @@ import Contact from './Components/Contact'
 import Projects from './Components/Projects'
 import Profile from './images/Profile.jpeg'
 import Icon from './Components/icon'
-import { AiFillGithub } from "react-icons/ai";
-import { AiFillLinkedin } from "react-icons/ai";
-import { AiFillMediumSquare} from "react-icons/ai"
-
-
+import Me from './Components/Me'
 
 
 function App() {
   return (
     <div >
       {/* <NavBar/> */}
-         <h1 className='Profile' style={{ fontSize: '200px' }}> Jacky Lin</h1> 
-         <img  className='Profile' src={Profile} alt={"Me"} style={{ position: "absolute" }}/>
+     <Me/>
          <br/>
         <About/>
         <Projects/>

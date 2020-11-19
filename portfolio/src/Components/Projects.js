@@ -1,11 +1,12 @@
 import React from 'react'
+import ComingSoon from "react-coming-soon";
 
 class Project extends React.Component{
     render(){
         return(
             <div className="project">
-                <h1>Projects: </h1>
-                <a  href="https://github.com/JackyLin2"> GitHub </a> 
+                <h1  className="projectCenter">Projects: </h1>
+                    
             </div>
         )
     }

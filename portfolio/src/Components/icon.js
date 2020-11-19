@@ -6,7 +6,7 @@ import { AiFillMediumSquare} from "react-icons/ai"
 class icon extends React.Component{
     render(){
         return(
-            <div className="icon">
+            <div >
             <a href= "https://github.com/JackyLin2" > <AiFillGithub style={{
                 position: 'absolute', left: '47%', top: '325%', fontSize: '30px'}}/> </a> 
                 <a href="https://www.linkedin.com/in/jacky-lin-b6b0b5170/"><AiFillLinkedin style={{
